@@ -5,7 +5,7 @@
 建模为 **DEC-POMDP**，用 **MMAPPO**（MAPPO + LSTM + 正弦周期编码，CTDE）求解，
 市场出清采用 **MRDAC**（多轮双向拍卖）。
 
-> 数学模型与符号定义见 [`model_spec.md`](model_spec.md)（阶段一产出，已用户确认）。
+> 论文原文见 [`paper/2604.08973v1.pdf`](paper/2604.08973v1.pdf)；数学模型与符号定义见 [`model_spec.md`](model_spec.md)（阶段一产出，已用户确认）。
 > 本工程**不修改工作区任何已有源文件**，所有产出均在 `repro_ies_marl/` 内。
 
 ---
