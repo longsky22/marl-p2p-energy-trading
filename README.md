@@ -5,7 +5,7 @@
 建模为 **DEC-POMDP**，用 **MMAPPO**（MAPPO + LSTM + 正弦周期编码，CTDE）求解，
 市场出清采用 **MRDAC**（多轮双向拍卖）。
 
-> 论文原文见 [`paper/2604.08973v1.pdf`](paper/2604.08973v1.pdf)；数学模型与符号定义见 [`model_spec.md`](model_spec.md)（阶段一产出，已用户确认）。
+> 论文原文（arXiv，请自行下载）：https://arxiv.org/abs/2604.08973 ；数学模型与符号定义见 [`model_spec.md`](model_spec.md)（阶段一产出，已用户确认）。
 > 本工程**不修改工作区任何已有源文件**，所有产出均在 `repro_ies_marl/` 内。
 
 ---
@@ -111,3 +111,26 @@ repro_ies_marl/
 | LSTM 隐藏 | 64 | MLP 隐藏 | 64 |
 | critic 隐藏 | 128 | 梯度裁剪 | 0.5 |
 | episodes | 2000 | 评估日数 | 200 |
+
+## 7. 论文引用
+
+本仓库仅收录论文的**引用信息**，不附带论文 PDF。原文请从 arXiv 获取：
+**arXiv:2604.08973v1 [cs.MA]**，2026-04-10。
+
+```bibtex
+@misc{ren2026marl,
+  title         = {Multi-agent Reinforcement Learning for Low-Carbon P2P Energy
+                   Trading among Self-Interested Microgrids},
+  author        = {Junhao Ren and Honglin Gao and Lan Zhao and Qiyu Kang and
+                   Gaoxi Xiao and Yajuan Sun},
+  year          = {2026},
+  month         = apr,
+  eprint        = {2604.08973},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.MA},
+  url           = {https://arxiv.org/abs/2604.08973}
+}
+```
+
+> 作者单位：Ren / Gao / Zhao / Xiao — 南洋理工大学（NTU）电子与电气工程学院；
+> Kang — 中国科学技术大学信息科学技术学院；Sun — 新加坡科技研究局（A*STAR）先进制造技术研究所。
