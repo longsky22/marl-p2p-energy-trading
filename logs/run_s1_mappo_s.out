@@ -1,0 +1,27 @@
+DEVICE: cpu | torch 2.14.1+cpu | algo mappo_s | mechanism mrdac | episodes 3000 | episodes_per_update 16
+[mappo_s_mrdac_seed1] ep 128/3000 upd 8 train_rew=-69.12 eval_profit=-52.45 emg=7.32 fit=65.63 p2p=8.63 soc=6.05 best=-52.45 elapsed=21s
+[mappo_s_mrdac_seed1] ep 256/3000 upd 16 train_rew=-72.06 eval_profit=-117.03 emg=10.00 fit=66.38 p2p=3.29 soc=6.47 best=-52.45 elapsed=42s
+[mappo_s_mrdac_seed1] ep 384/3000 upd 24 train_rew=-123.35 eval_profit=-125.06 emg=10.19 fit=66.71 p2p=4.13 soc=6.57 best=-52.45 elapsed=65s
+[mappo_s_mrdac_seed1] ep 512/3000 upd 32 train_rew=-30.26 eval_profit=-157.63 emg=11.48 fit=65.95 p2p=0.67 soc=6.78 best=-52.45 elapsed=86s
+[mappo_s_mrdac_seed1] ep 640/3000 upd 40 train_rew=-224.49 eval_profit=-162.82 emg=11.95 fit=67.54 p2p=1.85 soc=6.69 best=-52.45 elapsed=108s
+[mappo_s_mrdac_seed1] ep 768/3000 upd 48 train_rew=-91.52 eval_profit=-166.06 emg=12.43 fit=70.22 p2p=4.25 soc=6.51 best=-52.45 elapsed=129s
+[mappo_s_mrdac_seed1] ep 896/3000 upd 56 train_rew=-108.00 eval_profit=-149.57 emg=11.72 fit=69.80 p2p=7.13 soc=6.48 best=-52.45 elapsed=150s
+[mappo_s_mrdac_seed1] ep 1024/3000 upd 64 train_rew=-178.38 eval_profit=-112.19 emg=10.44 fit=69.84 p2p=12.78 soc=6.45 best=-52.45 elapsed=171s
+[mappo_s_mrdac_seed1] ep 1152/3000 upd 72 train_rew=-69.01 eval_profit=-127.09 emg=10.86 fit=68.38 p2p=11.93 soc=6.57 best=-52.45 elapsed=192s
+[mappo_s_mrdac_seed1] ep 1280/3000 upd 80 train_rew=-79.05 eval_profit=-137.05 emg=11.31 fit=69.40 p2p=12.89 soc=6.56 best=-52.45 elapsed=214s
+[mappo_s_mrdac_seed1] ep 1408/3000 upd 88 train_rew=-117.62 eval_profit=-214.56 emg=14.17 fit=72.27 p2p=11.87 soc=6.55 best=-52.45 elapsed=235s
+[mappo_s_mrdac_seed1] ep 1536/3000 upd 96 train_rew=-69.95 eval_profit=-125.00 emg=10.76 fit=68.69 p2p=17.28 soc=6.73 best=-52.45 elapsed=256s
+[mappo_s_mrdac_seed1] ep 1664/3000 upd 104 train_rew=-169.17 eval_profit=-210.73 emg=14.00 fit=71.47 p2p=16.58 soc=6.76 best=-52.45 elapsed=277s
+[mappo_s_mrdac_seed1] ep 1792/3000 upd 112 train_rew=-129.37 eval_profit=-186.37 emg=13.09 fit=71.01 p2p=13.16 soc=6.73 best=-52.45 elapsed=297s
+[mappo_s_mrdac_seed1] ep 1920/3000 upd 120 train_rew=-82.68 eval_profit=-170.41 emg=12.43 fit=69.69 p2p=14.00 soc=6.81 best=-52.45 elapsed=318s
+[mappo_s_mrdac_seed1] ep 2048/3000 upd 128 train_rew=-197.79 eval_profit=-147.44 emg=11.67 fit=69.01 p2p=12.74 soc=6.79 best=-52.45 elapsed=339s
+[mappo_s_mrdac_seed1] ep 2176/3000 upd 136 train_rew=-115.85 eval_profit=-221.23 emg=14.44 fit=71.71 p2p=10.81 soc=6.68 best=-52.45 elapsed=360s
+[mappo_s_mrdac_seed1] ep 2304/3000 upd 144 train_rew=-190.02 eval_profit=-204.81 emg=13.77 fit=71.50 p2p=12.61 soc=6.62 best=-52.45 elapsed=381s
+[mappo_s_mrdac_seed1] ep 2432/3000 upd 152 train_rew=-157.72 eval_profit=-183.18 emg=12.93 fit=70.81 p2p=10.32 soc=6.42 best=-52.45 elapsed=403s
+[mappo_s_mrdac_seed1] ep 2560/3000 upd 160 train_rew=-90.11 eval_profit=-195.61 emg=13.31 fit=70.73 p2p=9.46 soc=6.60 best=-52.45 elapsed=424s
+[mappo_s_mrdac_seed1] ep 2688/3000 upd 168 train_rew=-117.37 eval_profit=-135.52 emg=11.16 fit=69.52 p2p=12.55 soc=6.62 best=-52.45 elapsed=444s
+[mappo_s_mrdac_seed1] ep 2816/3000 upd 176 train_rew=-168.43 eval_profit=-142.21 emg=11.21 fit=68.87 p2p=11.02 soc=6.62 best=-52.45 elapsed=465s
+[mappo_s_mrdac_seed1] ep 2944/3000 upd 184 train_rew=-108.17 eval_profit=-119.30 emg=10.76 fit=70.51 p2p=13.48 soc=6.57 best=-52.45 elapsed=485s
+[mappo_s_mrdac_seed1] ep 3000/3000 upd 188 train_rew=-79.41 eval_profit=-122.54 emg=10.99 fit=71.03 p2p=13.27 soc=6.57 best=-52.45 elapsed=495s
+[mappo_s_mrdac_seed1] FINAL eval over 200 days: profit=-134.73 emg=11.51 fit=71.33 p2p=13.40 soc=6.52
+S1_B_DONE

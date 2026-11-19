@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 中间/参考文件（论文文本提取、安装日志、监控标记）
+_reference/
+install_*.log
+*.output
+logs/.seen_*
+
+# 系统
+.DS_Store
+Thumbs.db

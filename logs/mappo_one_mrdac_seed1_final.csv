@@ -1,0 +1,2 @@
+algo,mechanism,seed,total_profit,profit_per_mg,emergency_kwh,fit_kwh,p2p_kwh,avg_soc
+mappo_one,mrdac,1,-90.44038915086249,-22.61009728771562,9.411741212686332,66.38302330093174,12.748384942330354,6.803202656430659

@@ -1,0 +1,19 @@
+DEVICE: cpu | torch 2.14.1+cpu | algo mmappo | mechanism vda | episodes 2000 | episodes_per_update 16
+[mmappo_vda_seed0] ep 128/2000 upd 8 train_rew=-154.88 eval_profit=-69.79 emg=8.03 fit=65.93 p2p=7.90 soc=6.27 best=-69.79 elapsed=39s
+[mmappo_vda_seed0] ep 256/2000 upd 16 train_rew=13.18 eval_profit=-99.68 emg=9.28 fit=66.00 p2p=4.34 soc=6.39 best=-69.79 elapsed=78s
+[mmappo_vda_seed0] ep 384/2000 upd 24 train_rew=-7.48 eval_profit=-124.05 emg=10.14 fit=64.90 p2p=2.70 soc=6.71 best=-69.79 elapsed=118s
+[mmappo_vda_seed0] ep 512/2000 upd 32 train_rew=-50.58 eval_profit=-34.52 emg=6.83 fit=65.83 p2p=9.88 soc=6.30 best=-34.52 elapsed=157s
+[mmappo_vda_seed0] ep 640/2000 upd 40 train_rew=18.34 eval_profit=-23.45 emg=6.31 fit=66.97 p2p=12.09 soc=5.96 best=-23.45 elapsed=196s
+[mmappo_vda_seed0] ep 768/2000 upd 48 train_rew=0.92 eval_profit=-56.51 emg=7.72 fit=68.24 p2p=11.05 soc=6.04 best=-23.45 elapsed=235s
+[mmappo_vda_seed0] ep 896/2000 upd 56 train_rew=34.80 eval_profit=-28.13 emg=6.80 fit=70.56 p2p=12.63 soc=5.66 best=-23.45 elapsed=276s
+[mmappo_vda_seed0] ep 1024/2000 upd 64 train_rew=39.30 eval_profit=-58.47 emg=7.83 fit=68.30 p2p=9.97 soc=6.02 best=-23.45 elapsed=313s
+[mmappo_vda_seed0] ep 1152/2000 upd 72 train_rew=12.79 eval_profit=-10.73 emg=6.23 fit=69.74 p2p=13.15 soc=5.74 best=-10.73 elapsed=343s
+[mmappo_vda_seed0] ep 1280/2000 upd 80 train_rew=36.35 eval_profit=32.72 emg=4.73 fit=71.49 p2p=16.68 soc=5.42 best=32.72 elapsed=374s
+[mmappo_vda_seed0] ep 1408/2000 upd 88 train_rew=62.95 eval_profit=28.88 emg=4.93 fit=72.06 p2p=18.23 soc=5.37 best=32.72 elapsed=405s
+[mmappo_vda_seed0] ep 1536/2000 upd 96 train_rew=28.67 eval_profit=28.44 emg=5.00 fit=72.66 p2p=17.99 soc=5.30 best=32.72 elapsed=436s
+[mmappo_vda_seed0] ep 1664/2000 upd 104 train_rew=-31.51 eval_profit=32.16 emg=4.89 fit=72.25 p2p=17.17 soc=5.44 best=32.72 elapsed=468s
+[mmappo_vda_seed0] ep 1792/2000 upd 112 train_rew=1.58 eval_profit=40.30 emg=4.63 fit=73.83 p2p=17.97 soc=5.19 best=40.30 elapsed=500s
+[mmappo_vda_seed0] ep 1920/2000 upd 120 train_rew=23.12 eval_profit=44.74 emg=4.45 fit=74.62 p2p=21.87 soc=5.02 best=44.74 elapsed=531s
+[mmappo_vda_seed0] ep 2000/2000 upd 125 train_rew=46.55 eval_profit=36.70 emg=4.78 fit=73.71 p2p=18.86 soc=5.19 best=44.74 elapsed=554s
+[mmappo_vda_seed0] FINAL eval over 200 days: profit=35.73 emg=4.84 fit=73.50 p2p=18.91 soc=5.14
+MECH_DONE

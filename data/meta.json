@@ -1,0 +1,66 @@
+{
+  "N": 4,
+  "T": 24,
+  "dt": 1.0,
+  "n_days": 1000,
+  "seed": 2026,
+  "L_MAX": [
+    25.0,
+    6.0,
+    40.0,
+    5.0
+  ],
+  "G_MAX": [
+    5.0,
+    7.0,
+    10.0,
+    15.0
+  ],
+  "E_MAX": [
+    8.0,
+    15.0,
+    15.0,
+    30.0
+  ],
+  "T_ES_MAX": [
+    4.0,
+    5.0,
+    8.0,
+    10.0
+  ],
+  "T_ES_MIN": [
+    -4.0,
+    -5.0,
+    -8.0,
+    -10.0
+  ],
+  "E_0": [
+    0.0,
+    2.0,
+    0.0,
+    20.0
+  ],
+  "E_MIN": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "eta_chr": 1.0,
+  "eta_dis": 1.0,
+  "p_fit": 2.0,
+  "p_emg_range": [
+    15.0,
+    35.0
+  ],
+  "kappa": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tau1": 1,
+  "tau2": 6,
+  "forecast_noise": 0.08,
+  "note": "Synthetic data logically generated per Table I scaling; original Australian dataset [16] not bundled with the paper."
+}

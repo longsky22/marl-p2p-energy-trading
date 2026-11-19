@@ -1,0 +1,18 @@
+DEVICE: cpu | torch 2.14.1+cpu | algo mmappo | mechanism mrdac | episodes 2000 | episodes_per_update 16
+[mmappo_mrdac_seed0] ep 128/2000 upd 8 train_rew=-157.37 eval_profit=-68.32 emg=7.95 fit=66.28 p2p=7.72 soc=6.19 best=-68.32 elapsed=30s
+[mmappo_mrdac_seed0] ep 256/2000 upd 16 train_rew=12.76 eval_profit=-84.48 emg=8.73 fit=66.67 p2p=5.56 soc=6.21 best=-68.32 elapsed=62s
+[mmappo_mrdac_seed0] ep 384/2000 upd 24 train_rew=-14.83 eval_profit=-122.83 emg=10.31 fit=65.31 p2p=2.26 soc=6.71 best=-68.32 elapsed=93s
+[mmappo_mrdac_seed0] ep 512/2000 upd 32 train_rew=-51.45 eval_profit=-42.12 emg=7.09 fit=65.45 p2p=9.52 soc=6.35 best=-42.12 elapsed=123s
+[mmappo_mrdac_seed0] ep 640/2000 upd 40 train_rew=11.58 eval_profit=-25.60 emg=6.40 fit=66.28 p2p=11.22 soc=6.06 best=-25.60 elapsed=159s
+[mmappo_mrdac_seed0] ep 768/2000 upd 48 train_rew=-11.04 eval_profit=-51.30 emg=7.37 fit=66.80 p2p=11.72 soc=6.11 best=-25.60 elapsed=199s
+[mmappo_mrdac_seed0] ep 896/2000 upd 56 train_rew=11.76 eval_profit=-62.61 emg=7.94 fit=68.05 p2p=8.41 soc=6.07 best=-25.60 elapsed=241s
+[mmappo_mrdac_seed0] ep 1024/2000 upd 64 train_rew=32.34 eval_profit=-51.98 emg=7.44 fit=67.79 p2p=9.51 soc=6.00 best=-25.60 elapsed=281s
+[mmappo_mrdac_seed0] ep 1152/2000 upd 72 train_rew=22.28 eval_profit=3.95 emg=5.56 fit=68.91 p2p=13.39 soc=5.67 best=3.95 elapsed=321s
+[mmappo_mrdac_seed0] ep 1280/2000 upd 80 train_rew=47.88 eval_profit=38.87 emg=4.47 fit=71.81 p2p=17.10 soc=5.24 best=38.87 elapsed=361s
+[mmappo_mrdac_seed0] ep 1408/2000 upd 88 train_rew=78.58 eval_profit=40.24 emg=4.55 fit=73.27 p2p=17.23 soc=5.06 best=40.24 elapsed=409s
+[mmappo_mrdac_seed0] ep 1536/2000 upd 96 train_rew=57.48 eval_profit=48.90 emg=4.22 fit=73.97 p2p=19.45 soc=4.89 best=48.90 elapsed=452s
+[mmappo_mrdac_seed0] ep 1664/2000 upd 104 train_rew=21.60 eval_profit=51.25 emg=4.12 fit=74.05 p2p=20.16 soc=4.88 best=51.25 elapsed=501s
+[mmappo_mrdac_seed0] ep 1792/2000 upd 112 train_rew=-2.38 eval_profit=44.36 emg=4.40 fit=74.38 p2p=19.00 soc=4.87 best=51.25 elapsed=542s
+[mmappo_mrdac_seed0] ep 1920/2000 upd 120 train_rew=21.34 eval_profit=42.05 emg=4.42 fit=75.41 p2p=21.80 soc=4.67 best=51.25 elapsed=582s
+[mmappo_mrdac_seed0] ep 2000/2000 upd 125 train_rew=53.06 eval_profit=37.75 emg=4.55 fit=74.41 p2p=21.34 soc=4.85 best=51.25 elapsed=611s
+[mmappo_mrdac_seed0] FINAL eval over 200 days: profit=37.51 emg=4.61 fit=74.19 p2p=21.43 soc=4.81

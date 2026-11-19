@@ -1,0 +1,14 @@
+DEVICE: cpu | torch 2.14.1+cpu | algo mippo | mechanism mrdac | episodes 1500 | episodes_per_update 16
+[mippo_mrdac_seed0] ep 128/1500 upd 8 train_rew=-231.25 eval_profit=-118.30 emg=10.01 fit=65.83 p2p=3.72 soc=6.54 best=-118.30 elapsed=42s
+[mippo_mrdac_seed0] ep 256/1500 upd 16 train_rew=13.71 eval_profit=-78.08 emg=8.56 fit=66.56 p2p=6.36 soc=6.26 best=-78.08 elapsed=84s
+[mippo_mrdac_seed0] ep 384/1500 upd 24 train_rew=-23.48 eval_profit=-98.75 emg=9.23 fit=66.03 p2p=5.70 soc=6.38 best=-78.08 elapsed=125s
+[mippo_mrdac_seed0] ep 512/1500 upd 32 train_rew=-56.58 eval_profit=-113.90 emg=9.74 fit=65.34 p2p=4.12 soc=6.66 best=-78.08 elapsed=164s
+[mippo_mrdac_seed0] ep 640/1500 upd 40 train_rew=-18.91 eval_profit=-29.28 emg=6.72 fit=68.67 p2p=10.17 soc=5.70 best=-29.28 elapsed=205s
+[mippo_mrdac_seed0] ep 768/1500 upd 48 train_rew=-17.56 eval_profit=43.16 emg=4.07 fit=68.86 p2p=20.38 soc=5.48 best=43.16 elapsed=247s
+[mippo_mrdac_seed0] ep 896/1500 upd 56 train_rew=36.53 eval_profit=63.74 emg=3.57 fit=72.60 p2p=23.71 soc=5.05 best=63.74 elapsed=288s
+[mippo_mrdac_seed0] ep 1024/1500 upd 64 train_rew=22.81 eval_profit=49.40 emg=3.98 fit=69.23 p2p=21.81 soc=5.61 best=63.74 elapsed=330s
+[mippo_mrdac_seed0] ep 1152/1500 upd 72 train_rew=-11.07 eval_profit=13.38 emg=5.50 fit=72.74 p2p=16.13 soc=5.37 best=63.74 elapsed=370s
+[mippo_mrdac_seed0] ep 1280/1500 upd 80 train_rew=50.49 eval_profit=-1.00 emg=6.11 fit=73.28 p2p=15.42 soc=5.45 best=63.74 elapsed=412s
+[mippo_mrdac_seed0] ep 1408/1500 upd 88 train_rew=23.66 eval_profit=5.65 emg=5.91 fit=74.27 p2p=18.34 soc=5.30 best=63.74 elapsed=455s
+[mippo_mrdac_seed0] ep 1500/1500 upd 94 train_rew=19.49 eval_profit=7.61 emg=5.95 fit=75.16 p2p=18.42 soc=5.24 best=63.74 elapsed=486s
+[mippo_mrdac_seed0] FINAL eval over 200 days: profit=7.23 emg=5.96 fit=74.81 p2p=18.81 soc=5.24

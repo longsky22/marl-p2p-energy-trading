@@ -1,0 +1,18 @@
+DEVICE: cpu | torch 2.14.1+cpu | algo mmappo | mechanism greedy | episodes 2000 | episodes_per_update 16
+[mmappo_greedy_seed0] ep 128/2000 upd 8 train_rew=-148.54 eval_profit=-59.36 emg=7.61 fit=66.35 p2p=8.61 soc=6.14 best=-59.36 elapsed=40s
+[mmappo_greedy_seed0] ep 256/2000 upd 16 train_rew=16.22 eval_profit=-72.47 emg=8.30 fit=67.21 p2p=6.59 soc=6.08 best=-59.36 elapsed=81s
+[mmappo_greedy_seed0] ep 384/2000 upd 24 train_rew=-1.27 eval_profit=-103.45 emg=9.62 fit=65.96 p2p=3.81 soc=6.49 best=-59.36 elapsed=122s
+[mmappo_greedy_seed0] ep 512/2000 upd 32 train_rew=-48.03 eval_profit=-21.06 emg=6.42 fit=67.44 p2p=11.61 soc=5.94 best=-21.06 elapsed=160s
+[mmappo_greedy_seed0] ep 640/2000 upd 40 train_rew=13.65 eval_profit=-16.49 emg=6.15 fit=68.21 p2p=12.15 soc=5.70 best=-16.49 elapsed=199s
+[mmappo_greedy_seed0] ep 768/2000 upd 48 train_rew=13.33 eval_profit=-71.04 emg=8.25 fit=68.92 p2p=11.47 soc=5.86 best=-16.49 elapsed=242s
+[mmappo_greedy_seed0] ep 896/2000 upd 56 train_rew=43.50 eval_profit=-19.57 emg=6.49 fit=70.67 p2p=13.31 soc=5.54 best=-16.49 elapsed=287s
+[mmappo_greedy_seed0] ep 1024/2000 upd 64 train_rew=50.16 eval_profit=-38.32 emg=7.08 fit=69.07 p2p=13.75 soc=5.86 best=-16.49 elapsed=330s
+[mmappo_greedy_seed0] ep 1152/2000 upd 72 train_rew=28.36 eval_profit=-30.94 emg=6.73 fit=68.03 p2p=13.68 soc=5.94 best=-16.49 elapsed=376s
+[mmappo_greedy_seed0] ep 1280/2000 upd 80 train_rew=52.32 eval_profit=35.81 emg=4.37 fit=71.46 p2p=17.65 soc=5.21 best=35.81 elapsed=416s
+[mmappo_greedy_seed0] ep 1408/2000 upd 88 train_rew=83.46 eval_profit=-41.45 emg=7.29 fit=70.68 p2p=13.75 soc=5.70 best=35.81 elapsed=456s
+[mmappo_greedy_seed0] ep 1536/2000 upd 96 train_rew=62.59 eval_profit=-63.96 emg=8.29 fit=70.36 p2p=12.15 soc=6.04 best=35.81 elapsed=494s
+[mmappo_greedy_seed0] ep 1664/2000 upd 104 train_rew=2.43 eval_profit=-5.85 emg=6.46 fit=74.25 p2p=15.66 soc=5.21 best=35.81 elapsed=530s
+[mmappo_greedy_seed0] ep 1792/2000 upd 112 train_rew=15.04 eval_profit=41.35 emg=4.73 fit=76.11 p2p=20.40 soc=4.72 best=41.35 elapsed=569s
+[mmappo_greedy_seed0] ep 1920/2000 upd 120 train_rew=41.86 eval_profit=41.90 emg=4.72 fit=75.95 p2p=21.19 soc=4.76 best=41.90 elapsed=608s
+[mmappo_greedy_seed0] ep 2000/2000 upd 125 train_rew=50.72 eval_profit=44.26 emg=4.57 fit=75.25 p2p=20.59 soc=4.84 best=44.26 elapsed=636s
+[mmappo_greedy_seed0] FINAL eval over 200 days: profit=44.05 emg=4.60 fit=74.99 p2p=20.43 soc=4.80
